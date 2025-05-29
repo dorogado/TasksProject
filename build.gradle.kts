@@ -9,7 +9,7 @@ plugins {
     id("org.jetbrains.compose")
     id("org.jetbrains.kotlin.plugin.compose")
     id("androidx.room").version("2.7.1")
-    id("com.google.devtools.ksp").version("1.8.10-1.0.9")
+    id("com.google.devtools.ksp").version("2.1.21-2.0.1")
 }
 
 
