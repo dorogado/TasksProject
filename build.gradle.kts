@@ -29,10 +29,12 @@ dependencies {
     // With compose.desktop.common you will also lose @Preview functionality
     implementation(compose.desktop.currentOs)
 
-    implementation("androidx.room:room-runtime:$roomVersion")
-    implementation("androidx.sqlite:sqlite-bundled:$sqliteVersion")
-    implementation("androidx.room:room-gradle-plugin:$roomVersion")
-    implementation("androidx.room:room-compiler:$roomVersion")
+    implementation(compose.desktop.currentOs)
+    implementation("io.ktor:ktor-client-core:2.3.3")
+    implementation("io.ktor:ktor-client-cio:2.3.3")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.3")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
 }
 
 compose.desktop {
