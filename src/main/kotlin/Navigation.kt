@@ -3,10 +3,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import screens.ProjectScreen
-import screens.ProjectsScreen
-import screens.AuthScreen
-import screens.SignUpScreen
+
 
 //sealed class NavHost(val screen: String) {
 //    data object SignUpScreen: NavHost("SignUpScreen")
